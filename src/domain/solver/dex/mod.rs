@@ -5,8 +5,7 @@ use {
     crate::{
         boundary::rate_limiter::{RateLimiter, RateLimiterError},
         domain::{
-            self,
-            auction,
+            self, auction,
             dex::{self, slippage},
             order::{self, Order},
             solution,
@@ -47,7 +46,7 @@ pub struct Dex {
 
 /// The amount of time we aim the solver to finish before the final deadline is
 /// reached.
-const DEADLINE_SLACK: chrono::Duration = chrono::Duration::microseconds(500);
+const DEADLINE_SLACK: chrono::Duration = chrono::Duration::milliseconds(500);
 
 impl Dex {
     pub fn new(dex: infra::dex::Dex, config: infra::config::dex::Config) -> Self {
