@@ -1,3 +1,4 @@
+![pull request](https://github.com/cowprotocol/solvers/workflows/pull%20request/badge.svg) ![deploy](https://github.com/cowprotocol/solvers/workflows/deploy/badge.svg)
 # SOLVERS
 
 ## Description
@@ -33,7 +34,3 @@ To build and run this project, you will need:
 
    `<config_path>` is the path to the corresponding solver's config. Examples for each solver can be found in
    the `./config` directory.
-
-## License
-
-TODO
