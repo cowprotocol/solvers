@@ -3,9 +3,8 @@
 
 ## Description
 
-This project is a solver engine that interfaces with several Decentralized Exchanges (DEXes), including Balancer, 0x,
-OneInch, and ParaSwap. The specific DEX solver that is instantiated depends on the command line argument provided when
-initiating the project.
+This project is a solver engine that interfaces with several Decentralized Exchanges (DEXes), including Balancer, 0x, OneInch, and ParaSwap. 
+The specific DEX solver that is instantiated depends on the command line argument provided when initiating the project.
 
 ## Pre-requisites
 
@@ -32,5 +31,4 @@ To build and run this project, you will need:
     - `oneinch`
     - `paraswap`
 
-   `<config_path>` is the path to the corresponding solver's config. Examples for each solver can be found in
-   the `./config` directory.
+   `<config_path>` is the path to the corresponding solver's config. Examples for each solver can be found in the `./config` directory.
